@@ -1,5 +1,8 @@
-.headerPrincipal .container{
+.headerPrincipal .container {
     display: flex;
-    align-items: center; /* centra los componentres verticalmente*/
+    align-items: center; /* centra los componentes verticalmente*/
     justify-content:  space-between; /*crea espacio entre los elementos*/
+}
+.headerPrincipal-nav {
+    display: flex;
 }
