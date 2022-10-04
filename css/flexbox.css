@@ -1,0 +1,5 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center; /* centra los componentres verticalmente*/
+    justify-content:  space-between; /*crea espacio entre los elementos*/
+}
