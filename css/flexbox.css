@@ -29,3 +29,26 @@
     height: 260px;
     flex-wrap: wrap; /*para que cuando llege a los 250px saltea la otra columna*/
 }
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link {
+    display: flex;
+    width: 23%;
+}
+
+.videoSobre .container {
+    display: flex;
+} /*Pocisiona el video a lado del texto*/
+
+/* responsive */
+
+.headerPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+.headerPrincipal-nav {
+    flex-direction: column;
+}
