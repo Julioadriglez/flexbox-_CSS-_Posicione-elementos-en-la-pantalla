@@ -22,4 +22,10 @@
 }
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+} 
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction: column; /*los elementos los acomoda en columna uno debajo del otro*/
+    height: 260px;
+    flex-wrap: wrap; /*para que cuando llege a los 250px saltea la otra columna*/
 }
