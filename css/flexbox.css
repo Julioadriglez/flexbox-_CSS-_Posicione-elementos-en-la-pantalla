@@ -60,7 +60,8 @@
     flex-direction: column;
 }
 .videoSobre-video {
-    flex-grow: 2; /*Aumenta el espacio que abarca el video */
+    flex-grow: 2; /*Aumenta el espacio que abarca el item */
+    flex-shrink: 2; /*reduce el tamaño del video conforme se aga mas chica la*/
 }
 .videoSobre-sobre-list {
     flex-grow: 2;
@@ -119,5 +120,7 @@
     .headerPrincipal-nav-link-app {
         order: -1; /*ordena los items empieza por menos uno hata el numero mayor */
     }
-
+    .videoSobre .container {
+        flex-direction: column;
+    }
 }
